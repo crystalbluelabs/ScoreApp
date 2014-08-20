@@ -1,0 +1,1287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222550C819191A7C00DEBA6C /* preludeBach.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 222550C719191A7C00DEBA6C /* preludeBach.m4a */; };
+		222550D81922987400DEBA6C /* BachPrelude_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550C91922987400DEBA6C /* BachPrelude_01.png */; };
+		222550D91922987400DEBA6C /* BachPrelude_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550CA1922987400DEBA6C /* BachPrelude_02.png */; };
+		222550DA1922987400DEBA6C /* BachPrelude_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550CB1922987400DEBA6C /* BachPrelude_03.png */; };
+		222550DB1922987400DEBA6C /* BachPrelude_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550CC1922987400DEBA6C /* BachPrelude_04.png */; };
+		222550DC1922987400DEBA6C /* BachPrelude_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550CD1922987400DEBA6C /* BachPrelude_05.png */; };
+		222550DD1922987400DEBA6C /* BachPrelude_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550CE1922987400DEBA6C /* BachPrelude_06.png */; };
+		222550DE1922987400DEBA6C /* BachPrelude_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550CF1922987400DEBA6C /* BachPrelude_07.png */; };
+		222550DF1922987400DEBA6C /* BachPrelude_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D01922987400DEBA6C /* BachPrelude_08.png */; };
+		222550E01922987400DEBA6C /* BachPrelude_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D11922987400DEBA6C /* BachPrelude_09.png */; };
+		222550E11922987400DEBA6C /* BachPrelude_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D21922987400DEBA6C /* BachPrelude_10.png */; };
+		222550E21922987400DEBA6C /* BachPrelude_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D31922987400DEBA6C /* BachPrelude_11.png */; };
+		222550E31922987400DEBA6C /* BachPrelude_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D41922987400DEBA6C /* BachPrelude_12.png */; };
+		222550E41922987400DEBA6C /* BachPrelude_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D51922987400DEBA6C /* BachPrelude_13.png */; };
+		222550E51922987400DEBA6C /* BachPrelude_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D61922987400DEBA6C /* BachPrelude_14.png */; };
+		222550E61922987400DEBA6C /* BachPrelude_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550D71922987400DEBA6C /* BachPrelude_15.png */; };
+		222550E819229A1900DEBA6C /* Synopsis.png in Resources */ = {isa = PBXBuildFile; fileRef = 222550E719229A1900DEBA6C /* Synopsis.png */; };
+		223005F11989200500886294 /* prelude_treb_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005CE1989200500886294 /* prelude_treb_01.png */; };
+		223005F21989200500886294 /* prelude_treb_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005CF1989200500886294 /* prelude_treb_02.png */; };
+		223005F31989200500886294 /* prelude_treb_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D01989200500886294 /* prelude_treb_03.png */; };
+		223005F41989200500886294 /* prelude_treb_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D11989200500886294 /* prelude_treb_04.png */; };
+		223005F51989200500886294 /* prelude_treb_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D21989200500886294 /* prelude_treb_05.png */; };
+		223005F61989200500886294 /* prelude_treb_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D31989200500886294 /* prelude_treb_06.png */; };
+		223005F71989200500886294 /* prelude_treb_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D41989200500886294 /* prelude_treb_07.png */; };
+		223005F81989200500886294 /* prelude_treb_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D51989200500886294 /* prelude_treb_08.png */; };
+		223005F91989200500886294 /* prelude_treb_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D61989200500886294 /* prelude_treb_09.png */; };
+		223005FA1989200500886294 /* prelude_treb_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D71989200500886294 /* prelude_treb_10.png */; };
+		223005FB1989200500886294 /* prelude_treb_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D81989200500886294 /* prelude_treb_11.png */; };
+		223005FC1989200500886294 /* prelude_treb_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005D91989200500886294 /* prelude_treb_12.png */; };
+		223005FD1989200500886294 /* prelude_treb_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005DA1989200500886294 /* prelude_treb_13.png */; };
+		223005FE1989200500886294 /* prelude_treb_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005DB1989200500886294 /* prelude_treb_14.png */; };
+		223005FF1989200500886294 /* prelude_treb_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005DC1989200500886294 /* prelude_treb_15.png */; };
+		223006001989200500886294 /* prelude_treb_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005DD1989200500886294 /* prelude_treb_16.png */; };
+		223006011989200500886294 /* prelude_treb_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005DE1989200500886294 /* prelude_treb_17.png */; };
+		223006021989200500886294 /* prelude_treb_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005DF1989200500886294 /* prelude_treb_18.png */; };
+		223006031989200500886294 /* prelude_treb_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E01989200500886294 /* prelude_treb_19.png */; };
+		223006041989200500886294 /* prelude_treb_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E11989200500886294 /* prelude_treb_20.png */; };
+		223006051989200500886294 /* prelude_treb_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E21989200500886294 /* prelude_treb_21.png */; };
+		223006081989200500886294 /* prelude_treb_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E51989200500886294 /* prelude_treb_24.png */; };
+		223006091989200500886294 /* prelude_treb_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E61989200500886294 /* prelude_treb_25.png */; };
+		2230060A1989200500886294 /* prelude_treb_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E71989200500886294 /* prelude_treb_26.png */; };
+		2230060B1989200500886294 /* prelude_treb_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E81989200500886294 /* prelude_treb_27.png */; };
+		2230060C1989200500886294 /* prelude_treb_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005E91989200500886294 /* prelude_treb_28.png */; };
+		2230060D1989200500886294 /* prelude_treb_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005EA1989200500886294 /* prelude_treb_29.png */; };
+		2230060E1989200500886294 /* prelude_treb_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005EB1989200500886294 /* prelude_treb_30.png */; };
+		2230060F1989200500886294 /* prelude_treb_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005EC1989200500886294 /* prelude_treb_31.png */; };
+		223006121989200500886294 /* prelude_treb_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005EF1989200500886294 /* prelude_treb_34.png */; };
+		223006131989200500886294 /* prelude_treb_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 223005F01989200500886294 /* prelude_treb_35.png */; };
+		223006371989201800886294 /* prelude_bass_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006141989201800886294 /* prelude_bass_01.png */; };
+		223006381989201800886294 /* prelude_bass_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006151989201800886294 /* prelude_bass_02.png */; };
+		223006391989201800886294 /* prelude_bass_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006161989201800886294 /* prelude_bass_03.png */; };
+		2230063A1989201800886294 /* prelude_bass_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006171989201800886294 /* prelude_bass_04.png */; };
+		2230063B1989201800886294 /* prelude_bass_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006181989201800886294 /* prelude_bass_05.png */; };
+		2230063C1989201800886294 /* prelude_bass_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006191989201800886294 /* prelude_bass_06.png */; };
+		2230063D1989201800886294 /* prelude_bass_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230061A1989201800886294 /* prelude_bass_07.png */; };
+		2230063E1989201800886294 /* prelude_bass_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230061B1989201800886294 /* prelude_bass_08.png */; };
+		2230063F1989201800886294 /* prelude_bass_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230061C1989201800886294 /* prelude_bass_09.png */; };
+		223006401989201800886294 /* prelude_bass_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230061D1989201800886294 /* prelude_bass_10.png */; };
+		223006411989201800886294 /* prelude_bass_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230061E1989201800886294 /* prelude_bass_11.png */; };
+		223006421989201800886294 /* prelude_bass_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230061F1989201800886294 /* prelude_bass_12.png */; };
+		223006431989201800886294 /* prelude_bass_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006201989201800886294 /* prelude_bass_13.png */; };
+		223006441989201800886294 /* prelude_bass_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006211989201800886294 /* prelude_bass_14.png */; };
+		223006451989201800886294 /* prelude_bass_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006221989201800886294 /* prelude_bass_15.png */; };
+		223006461989201800886294 /* prelude_bass_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006231989201800886294 /* prelude_bass_16.png */; };
+		223006471989201800886294 /* prelude_bass_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006241989201800886294 /* prelude_bass_17.png */; };
+		223006481989201800886294 /* prelude_bass_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006251989201800886294 /* prelude_bass_18.png */; };
+		223006491989201800886294 /* prelude_bass_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006261989201800886294 /* prelude_bass_19.png */; };
+		2230064A1989201800886294 /* prelude_bass_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006271989201800886294 /* prelude_bass_20.png */; };
+		2230064B1989201800886294 /* prelude_bass_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006281989201800886294 /* prelude_bass_21.png */; };
+		2230064E1989201800886294 /* prelude_bass_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230062B1989201800886294 /* prelude_bass_24.png */; };
+		2230064F1989201800886294 /* prelude_bass_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230062C1989201800886294 /* prelude_bass_25.png */; };
+		223006501989201800886294 /* prelude_bass_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230062D1989201800886294 /* prelude_bass_26.png */; };
+		223006511989201800886294 /* prelude_bass_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230062E1989201800886294 /* prelude_bass_27.png */; };
+		223006521989201800886294 /* prelude_bass_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230062F1989201800886294 /* prelude_bass_28.png */; };
+		223006531989201800886294 /* prelude_bass_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006301989201800886294 /* prelude_bass_29.png */; };
+		223006541989201800886294 /* prelude_bass_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006311989201800886294 /* prelude_bass_30.png */; };
+		223006551989201800886294 /* prelude_bass_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006321989201800886294 /* prelude_bass_31.png */; };
+		223006561989201800886294 /* prelude_bass_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006331989201800886294 /* prelude_bass_32.png */; };
+		223006571989201800886294 /* prelude_bass_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006341989201800886294 /* prelude_bass_33.png */; };
+		223006581989201800886294 /* prelude_bass_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006351989201800886294 /* prelude_bass_34.png */; };
+		223006591989201800886294 /* prelude_bass_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006361989201800886294 /* prelude_bass_35.png */; };
+		2230067D1989202400886294 /* prelude_analysis_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230065A1989202400886294 /* prelude_analysis_01.png */; };
+		2230067E1989202400886294 /* prelude_analysis_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230065B1989202400886294 /* prelude_analysis_02.png */; };
+		2230067F1989202400886294 /* prelude_analysis_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230065C1989202400886294 /* prelude_analysis_03.png */; };
+		223006801989202400886294 /* prelude_analysis_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230065D1989202400886294 /* prelude_analysis_04.png */; };
+		223006811989202400886294 /* prelude_analysis_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230065E1989202400886294 /* prelude_analysis_05.png */; };
+		223006821989202400886294 /* prelude_analysis_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230065F1989202400886294 /* prelude_analysis_06.png */; };
+		223006831989202400886294 /* prelude_analysis_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006601989202400886294 /* prelude_analysis_07.png */; };
+		223006841989202400886294 /* prelude_analysis_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006611989202400886294 /* prelude_analysis_08.png */; };
+		223006851989202400886294 /* prelude_analysis_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006621989202400886294 /* prelude_analysis_09.png */; };
+		223006861989202400886294 /* prelude_analysis_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006631989202400886294 /* prelude_analysis_10.png */; };
+		223006871989202400886294 /* prelude_analysis_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006641989202400886294 /* prelude_analysis_11.png */; };
+		223006881989202400886294 /* prelude_analysis_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006651989202400886294 /* prelude_analysis_12.png */; };
+		223006891989202400886294 /* prelude_analysis_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006661989202400886294 /* prelude_analysis_13.png */; };
+		2230068A1989202400886294 /* prelude_analysis_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006671989202400886294 /* prelude_analysis_14.png */; };
+		2230068B1989202400886294 /* prelude_analysis_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006681989202400886294 /* prelude_analysis_15.png */; };
+		2230068C1989202400886294 /* prelude_analysis_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006691989202400886294 /* prelude_analysis_16.png */; };
+		2230068D1989202400886294 /* prelude_analysis_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230066A1989202400886294 /* prelude_analysis_17.png */; };
+		2230068E1989202400886294 /* prelude_analysis_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230066B1989202400886294 /* prelude_analysis_18.png */; };
+		2230068F1989202400886294 /* prelude_analysis_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230066C1989202400886294 /* prelude_analysis_19.png */; };
+		223006901989202400886294 /* prelude_analysis_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230066D1989202400886294 /* prelude_analysis_20.png */; };
+		223006911989202400886294 /* prelude_analysis_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230066E1989202400886294 /* prelude_analysis_21.png */; };
+		223006921989202400886294 /* prelude_analysis_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230066F1989202400886294 /* prelude_analysis_22.png */; };
+		223006931989202400886294 /* prelude_analysis_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006701989202400886294 /* prelude_analysis_23.png */; };
+		223006941989202400886294 /* prelude_analysis_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006711989202400886294 /* prelude_analysis_24.png */; };
+		223006951989202400886294 /* prelude_analysis_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006721989202400886294 /* prelude_analysis_25.png */; };
+		223006961989202400886294 /* prelude_analysis_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006731989202400886294 /* prelude_analysis_26.png */; };
+		223006971989202400886294 /* prelude_analysis_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006741989202400886294 /* prelude_analysis_27.png */; };
+		223006981989202400886294 /* prelude_analysis_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006751989202400886294 /* prelude_analysis_28.png */; };
+		223006991989202400886294 /* prelude_analysis_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006761989202400886294 /* prelude_analysis_29.png */; };
+		2230069A1989202400886294 /* prelude_analysis_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006771989202400886294 /* prelude_analysis_30.png */; };
+		2230069B1989202400886294 /* prelude_analysis_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006781989202400886294 /* prelude_analysis_31.png */; };
+		2230069C1989202400886294 /* prelude_analysis_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006791989202400886294 /* prelude_analysis_32.png */; };
+		2230069D1989202400886294 /* prelude_analysis_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230067A1989202400886294 /* prelude_analysis_33.png */; };
+		2230069E1989202400886294 /* prelude_analysis_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230067B1989202400886294 /* prelude_analysis_34.png */; };
+		2230069F1989202400886294 /* prelude_analysis_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 2230067C1989202400886294 /* prelude_analysis_35.png */; };
+		223006A21989229D00886294 /* prelude_treb_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006A01989229D00886294 /* prelude_treb_22.png */; };
+		223006A31989229D00886294 /* prelude_treb_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006A11989229D00886294 /* prelude_treb_23.png */; };
+		223006A6198922AC00886294 /* prelude_treb_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006A4198922AC00886294 /* prelude_treb_32.png */; };
+		223006A7198922AC00886294 /* prelude_treb_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006A5198922AC00886294 /* prelude_treb_33.png */; };
+		223006AA198922C700886294 /* prelude_bass_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006A8198922C700886294 /* prelude_bass_22.png */; };
+		223006AB198922C700886294 /* prelude_bass_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006A9198922C700886294 /* prelude_bass_23.png */; };
+		223006AE198EA48A00886294 /* FullClef_Bass.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006AC198EA48A00886294 /* FullClef_Bass.png */; };
+		223006AF198EA48A00886294 /* FullClef_Treble.png in Resources */ = {isa = PBXBuildFile; fileRef = 223006AD198EA48A00886294 /* FullClef_Treble.png */; };
+		224C3FED18B5804E006A1F8C /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FDD18B5804E006A1F8C /* SKAction+SKTExtras.m */; };
+		224C3FEE18B5804E006A1F8C /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FDF18B5804E006A1F8C /* SKAction+SKTSpecialEffects.m */; };
+		224C3FEF18B5804E006A1F8C /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FE118B5804E006A1F8C /* SKEmitterNode+SKTExtras.m */; };
+		224C3FF018B5804E006A1F8C /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FE318B5804E006A1F8C /* SKNode+SKTDebugDraw.m */; };
+		224C3FF118B5804E006A1F8C /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FE518B5804E006A1F8C /* SKNode+SKTExtras.m */; };
+		224C3FF218B5804E006A1F8C /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FE718B5804E006A1F8C /* SKTAudio.m */; };
+		224C3FF318B5804E006A1F8C /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FE918B5804E006A1F8C /* SKTEffects.m */; };
+		224C3FF418B5804E006A1F8C /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C3FEB18B5804E006A1F8C /* SKTTimingFunctions.m */; };
+		224C3FF618B5852E006A1F8C /* TrackinglineOLD.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C3FF518B5852E006A1F8C /* TrackinglineOLD.png */; };
+		2279D1D318AAAF2F00085FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D1D218AAAF2F00085FB2 /* Foundation.framework */; };
+		2279D1D518AAAF2F00085FB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D1D418AAAF2F00085FB2 /* CoreGraphics.framework */; };
+		2279D1D718AAAF2F00085FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D1D618AAAF2F00085FB2 /* UIKit.framework */; };
+		2279D1D918AAAF3000085FB2 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D1D818AAAF3000085FB2 /* SpriteKit.framework */; };
+		2279D1DF18AAAF3000085FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2279D1DD18AAAF3000085FB2 /* InfoPlist.strings */; };
+		2279D1E118AAAF3000085FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279D1E018AAAF3000085FB2 /* main.m */; };
+		2279D1E518AAAF3000085FB2 /* RFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279D1E418AAAF3000085FB2 /* RFAppDelegate.m */; };
+		2279D1E818AAAF3000085FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2279D1E618AAAF3000085FB2 /* Main.storyboard */; };
+		2279D1EB18AAAF3000085FB2 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279D1EA18AAAF3000085FB2 /* RFViewController.m */; };
+		2279D1EE18AAAF3000085FB2 /* RFVideoScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279D1ED18AAAF3000085FB2 /* RFVideoScene.m */; };
+		2279D1F218AAAF3000085FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2279D1F118AAAF3000085FB2 /* Images.xcassets */; };
+		2279D1F918AAAF3000085FB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D1F818AAAF3000085FB2 /* XCTest.framework */; };
+		2279D1FA18AAAF3000085FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D1D218AAAF2F00085FB2 /* Foundation.framework */; };
+		2279D1FB18AAAF3000085FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D1D618AAAF2F00085FB2 /* UIKit.framework */; };
+		2279D20318AAAF3000085FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2279D20118AAAF3000085FB2 /* InfoPlist.strings */; };
+		2279D20518AAAF3000085FB2 /* Score_APPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279D20418AAAF3000085FB2 /* Score_APPTests.m */; };
+		2279D21218AAB48E00085FB2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D20E18AAB48E00085FB2 /* AVFoundation.framework */; };
+		2279D21318AAB48E00085FB2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D20F18AAB48E00085FB2 /* CoreMedia.framework */; };
+		2279D21418AAB48E00085FB2 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D21018AAB48E00085FB2 /* CoreMIDI.framework */; };
+		2279D21518AAB48E00085FB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279D21118AAB48E00085FB2 /* QuartzCore.framework */; };
+		22855702198011B500B46069 /* FullClef.png in Resources */ = {isa = PBXBuildFile; fileRef = 22855701198011B500B46069 /* FullClef.png */; };
+		228557051980122500B46069 /* BachPrelude.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 228557041980122500B46069 /* BachPrelude.m4a */; };
+		2292E1F9190597AC007F1B98 /* clef.png in Resources */ = {isa = PBXBuildFile; fileRef = 2292E1F8190597AC007F1B98 /* clef.png */; };
+		2292E1FB19070B8B007F1B98 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2292E1FA19070B8B007F1B98 /* MediaPlayer.framework */; };
+		2292E1FE19070D01007F1B98 /* fugueBach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2292E1FC19070D01007F1B98 /* fugueBach.mp3 */; };
+		2292E1FF19070D01007F1B98 /* preludeBach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2292E1FD19070D01007F1B98 /* preludeBach.mp3 */; };
+		22A92F7518B1614B002B2517 /* RFScoreSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A92F7418B1614B002B2517 /* RFScoreSheet.m */; };
+		22A92F7818B169C4002B2517 /* RFScoreScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A92F7718B169C4002B2517 /* RFScoreScene.m */; };
+		22A92F7B18B169D8002B2517 /* RFSynopsisScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A92F7A18B169D8002B2517 /* RFSynopsisScene.m */; };
+		22A92F7E18B169E9002B2517 /* RFPurchaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A92F7D18B169E9002B2517 /* RFPurchaseScene.m */; };
+		22C53EC418BCE8000066393E /* bach_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C53EBF18BCE8000066393E /* bach_001.png */; };
+		22C53EC518BCE8000066393E /* bach_002.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C53EC018BCE8000066393E /* bach_002.png */; };
+		22C53EC618BCE8000066393E /* bach_003.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C53EC118BCE8000066393E /* bach_003.png */; };
+		22C53EC718BCE8000066393E /* bach_004.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C53EC218BCE8000066393E /* bach_004.png */; };
+		22C53EC818BCE8000066393E /* bach_clef_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C53EC318BCE8000066393E /* bach_clef_640.png */; };
+		22CAFCAB195CA36400E01DE6 /* Trackingline.png in Resources */ = {isa = PBXBuildFile; fileRef = 22CAFCAA195CA36400E01DE6 /* Trackingline.png */; };
+		22D88A62193E006F00F8611C /* BachPrelude_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D88A5D193E006F00F8611C /* BachPrelude_25.png */; };
+		22D88A63193E006F00F8611C /* BachPrelude_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D88A5E193E006F00F8611C /* BachPrelude_26.png */; };
+		22D88A64193E006F00F8611C /* BachPrelude_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D88A5F193E006F00F8611C /* BachPrelude_27.png */; };
+		22D88A65193E006F00F8611C /* BachPrelude_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D88A60193E006F00F8611C /* BachPrelude_34.png */; };
+		22D88A66193E006F00F8611C /* BachPrelude_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D88A61193E006F00F8611C /* BachPrelude_35.png */; };
+		22DEE845190FEAA2009BA757 /* BachPrelude_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE836190FEAA2009BA757 /* BachPrelude_16.png */; };
+		22DEE846190FEAA2009BA757 /* BachPrelude_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE837190FEAA2009BA757 /* BachPrelude_17.png */; };
+		22DEE847190FEAA2009BA757 /* BachPrelude_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE838190FEAA2009BA757 /* BachPrelude_18.png */; };
+		22DEE848190FEAA2009BA757 /* BachPrelude_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE839190FEAA2009BA757 /* BachPrelude_19.png */; };
+		22DEE849190FEAA2009BA757 /* BachPrelude_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE83A190FEAA2009BA757 /* BachPrelude_20.png */; };
+		22DEE84A190FEAA2009BA757 /* BachPrelude_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE83B190FEAA2009BA757 /* BachPrelude_21.png */; };
+		22DEE84B190FEAA2009BA757 /* BachPrelude_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE83C190FEAA2009BA757 /* BachPrelude_22.png */; };
+		22DEE84C190FEAA2009BA757 /* BachPrelude_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE83D190FEAA2009BA757 /* BachPrelude_23.png */; };
+		22DEE84D190FEAA2009BA757 /* BachPrelude_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE83E190FEAA2009BA757 /* BachPrelude_24.png */; };
+		22DEE84E190FEAA2009BA757 /* BachPrelude_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE83F190FEAA2009BA757 /* BachPrelude_28.png */; };
+		22DEE84F190FEAA2009BA757 /* BachPrelude_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE840190FEAA2009BA757 /* BachPrelude_29.png */; };
+		22DEE850190FEAA2009BA757 /* BachPrelude_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE841190FEAA2009BA757 /* BachPrelude_30.png */; };
+		22DEE851190FEAA2009BA757 /* BachPrelude_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE842190FEAA2009BA757 /* BachPrelude_31.png */; };
+		22DEE852190FEAA2009BA757 /* BachPrelude_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE843190FEAA2009BA757 /* BachPrelude_32.png */; };
+		22DEE853190FEAA2009BA757 /* BachPrelude_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DEE844190FEAA2009BA757 /* BachPrelude_33.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2279D1FC18AAAF3000085FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2279D1C718AAAF2F00085FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2279D1CE18AAAF2F00085FB2;
+			remoteInfo = "Score APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222550C719191A7C00DEBA6C /* preludeBach.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = preludeBach.m4a; sourceTree = "<group>"; };
+		222550C91922987400DEBA6C /* BachPrelude_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_01.png; sourceTree = "<group>"; };
+		222550CA1922987400DEBA6C /* BachPrelude_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_02.png; sourceTree = "<group>"; };
+		222550CB1922987400DEBA6C /* BachPrelude_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_03.png; sourceTree = "<group>"; };
+		222550CC1922987400DEBA6C /* BachPrelude_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_04.png; sourceTree = "<group>"; };
+		222550CD1922987400DEBA6C /* BachPrelude_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_05.png; sourceTree = "<group>"; };
+		222550CE1922987400DEBA6C /* BachPrelude_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_06.png; sourceTree = "<group>"; };
+		222550CF1922987400DEBA6C /* BachPrelude_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_07.png; sourceTree = "<group>"; };
+		222550D01922987400DEBA6C /* BachPrelude_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_08.png; sourceTree = "<group>"; };
+		222550D11922987400DEBA6C /* BachPrelude_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_09.png; sourceTree = "<group>"; };
+		222550D21922987400DEBA6C /* BachPrelude_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_10.png; sourceTree = "<group>"; };
+		222550D31922987400DEBA6C /* BachPrelude_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_11.png; sourceTree = "<group>"; };
+		222550D41922987400DEBA6C /* BachPrelude_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_12.png; sourceTree = "<group>"; };
+		222550D51922987400DEBA6C /* BachPrelude_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_13.png; sourceTree = "<group>"; };
+		222550D61922987400DEBA6C /* BachPrelude_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_14.png; sourceTree = "<group>"; };
+		222550D71922987400DEBA6C /* BachPrelude_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_15.png; sourceTree = "<group>"; };
+		222550E719229A1900DEBA6C /* Synopsis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Synopsis.png; sourceTree = "<group>"; };
+		223005CE1989200500886294 /* prelude_treb_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_01.png; sourceTree = "<group>"; };
+		223005CF1989200500886294 /* prelude_treb_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_02.png; sourceTree = "<group>"; };
+		223005D01989200500886294 /* prelude_treb_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_03.png; sourceTree = "<group>"; };
+		223005D11989200500886294 /* prelude_treb_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_04.png; sourceTree = "<group>"; };
+		223005D21989200500886294 /* prelude_treb_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_05.png; sourceTree = "<group>"; };
+		223005D31989200500886294 /* prelude_treb_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_06.png; sourceTree = "<group>"; };
+		223005D41989200500886294 /* prelude_treb_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_07.png; sourceTree = "<group>"; };
+		223005D51989200500886294 /* prelude_treb_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_08.png; sourceTree = "<group>"; };
+		223005D61989200500886294 /* prelude_treb_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_09.png; sourceTree = "<group>"; };
+		223005D71989200500886294 /* prelude_treb_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_10.png; sourceTree = "<group>"; };
+		223005D81989200500886294 /* prelude_treb_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_11.png; sourceTree = "<group>"; };
+		223005D91989200500886294 /* prelude_treb_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_12.png; sourceTree = "<group>"; };
+		223005DA1989200500886294 /* prelude_treb_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_13.png; sourceTree = "<group>"; };
+		223005DB1989200500886294 /* prelude_treb_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_14.png; sourceTree = "<group>"; };
+		223005DC1989200500886294 /* prelude_treb_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_15.png; sourceTree = "<group>"; };
+		223005DD1989200500886294 /* prelude_treb_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_16.png; sourceTree = "<group>"; };
+		223005DE1989200500886294 /* prelude_treb_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_17.png; sourceTree = "<group>"; };
+		223005DF1989200500886294 /* prelude_treb_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_18.png; sourceTree = "<group>"; };
+		223005E01989200500886294 /* prelude_treb_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_19.png; sourceTree = "<group>"; };
+		223005E11989200500886294 /* prelude_treb_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_20.png; sourceTree = "<group>"; };
+		223005E21989200500886294 /* prelude_treb_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_21.png; sourceTree = "<group>"; };
+		223005E51989200500886294 /* prelude_treb_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_24.png; sourceTree = "<group>"; };
+		223005E61989200500886294 /* prelude_treb_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_25.png; sourceTree = "<group>"; };
+		223005E71989200500886294 /* prelude_treb_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_26.png; sourceTree = "<group>"; };
+		223005E81989200500886294 /* prelude_treb_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_27.png; sourceTree = "<group>"; };
+		223005E91989200500886294 /* prelude_treb_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_28.png; sourceTree = "<group>"; };
+		223005EA1989200500886294 /* prelude_treb_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_29.png; sourceTree = "<group>"; };
+		223005EB1989200500886294 /* prelude_treb_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_30.png; sourceTree = "<group>"; };
+		223005EC1989200500886294 /* prelude_treb_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_31.png; sourceTree = "<group>"; };
+		223005EF1989200500886294 /* prelude_treb_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_34.png; sourceTree = "<group>"; };
+		223005F01989200500886294 /* prelude_treb_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_35.png; sourceTree = "<group>"; };
+		223006141989201800886294 /* prelude_bass_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_01.png; sourceTree = "<group>"; };
+		223006151989201800886294 /* prelude_bass_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_02.png; sourceTree = "<group>"; };
+		223006161989201800886294 /* prelude_bass_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_03.png; sourceTree = "<group>"; };
+		223006171989201800886294 /* prelude_bass_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_04.png; sourceTree = "<group>"; };
+		223006181989201800886294 /* prelude_bass_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_05.png; sourceTree = "<group>"; };
+		223006191989201800886294 /* prelude_bass_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_06.png; sourceTree = "<group>"; };
+		2230061A1989201800886294 /* prelude_bass_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_07.png; sourceTree = "<group>"; };
+		2230061B1989201800886294 /* prelude_bass_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_08.png; sourceTree = "<group>"; };
+		2230061C1989201800886294 /* prelude_bass_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_09.png; sourceTree = "<group>"; };
+		2230061D1989201800886294 /* prelude_bass_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_10.png; sourceTree = "<group>"; };
+		2230061E1989201800886294 /* prelude_bass_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_11.png; sourceTree = "<group>"; };
+		2230061F1989201800886294 /* prelude_bass_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_12.png; sourceTree = "<group>"; };
+		223006201989201800886294 /* prelude_bass_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_13.png; sourceTree = "<group>"; };
+		223006211989201800886294 /* prelude_bass_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_14.png; sourceTree = "<group>"; };
+		223006221989201800886294 /* prelude_bass_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_15.png; sourceTree = "<group>"; };
+		223006231989201800886294 /* prelude_bass_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_16.png; sourceTree = "<group>"; };
+		223006241989201800886294 /* prelude_bass_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_17.png; sourceTree = "<group>"; };
+		223006251989201800886294 /* prelude_bass_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_18.png; sourceTree = "<group>"; };
+		223006261989201800886294 /* prelude_bass_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_19.png; sourceTree = "<group>"; };
+		223006271989201800886294 /* prelude_bass_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_20.png; sourceTree = "<group>"; };
+		223006281989201800886294 /* prelude_bass_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_21.png; sourceTree = "<group>"; };
+		2230062B1989201800886294 /* prelude_bass_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_24.png; sourceTree = "<group>"; };
+		2230062C1989201800886294 /* prelude_bass_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_25.png; sourceTree = "<group>"; };
+		2230062D1989201800886294 /* prelude_bass_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_26.png; sourceTree = "<group>"; };
+		2230062E1989201800886294 /* prelude_bass_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_27.png; sourceTree = "<group>"; };
+		2230062F1989201800886294 /* prelude_bass_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_28.png; sourceTree = "<group>"; };
+		223006301989201800886294 /* prelude_bass_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_29.png; sourceTree = "<group>"; };
+		223006311989201800886294 /* prelude_bass_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_30.png; sourceTree = "<group>"; };
+		223006321989201800886294 /* prelude_bass_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_31.png; sourceTree = "<group>"; };
+		223006331989201800886294 /* prelude_bass_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_32.png; sourceTree = "<group>"; };
+		223006341989201800886294 /* prelude_bass_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_33.png; sourceTree = "<group>"; };
+		223006351989201800886294 /* prelude_bass_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_34.png; sourceTree = "<group>"; };
+		223006361989201800886294 /* prelude_bass_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_35.png; sourceTree = "<group>"; };
+		2230065A1989202400886294 /* prelude_analysis_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_01.png; sourceTree = "<group>"; };
+		2230065B1989202400886294 /* prelude_analysis_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_02.png; sourceTree = "<group>"; };
+		2230065C1989202400886294 /* prelude_analysis_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_03.png; sourceTree = "<group>"; };
+		2230065D1989202400886294 /* prelude_analysis_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_04.png; sourceTree = "<group>"; };
+		2230065E1989202400886294 /* prelude_analysis_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_05.png; sourceTree = "<group>"; };
+		2230065F1989202400886294 /* prelude_analysis_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_06.png; sourceTree = "<group>"; };
+		223006601989202400886294 /* prelude_analysis_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_07.png; sourceTree = "<group>"; };
+		223006611989202400886294 /* prelude_analysis_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_08.png; sourceTree = "<group>"; };
+		223006621989202400886294 /* prelude_analysis_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_09.png; sourceTree = "<group>"; };
+		223006631989202400886294 /* prelude_analysis_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_10.png; sourceTree = "<group>"; };
+		223006641989202400886294 /* prelude_analysis_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_11.png; sourceTree = "<group>"; };
+		223006651989202400886294 /* prelude_analysis_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_12.png; sourceTree = "<group>"; };
+		223006661989202400886294 /* prelude_analysis_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_13.png; sourceTree = "<group>"; };
+		223006671989202400886294 /* prelude_analysis_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_14.png; sourceTree = "<group>"; };
+		223006681989202400886294 /* prelude_analysis_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_15.png; sourceTree = "<group>"; };
+		223006691989202400886294 /* prelude_analysis_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_16.png; sourceTree = "<group>"; };
+		2230066A1989202400886294 /* prelude_analysis_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_17.png; sourceTree = "<group>"; };
+		2230066B1989202400886294 /* prelude_analysis_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_18.png; sourceTree = "<group>"; };
+		2230066C1989202400886294 /* prelude_analysis_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_19.png; sourceTree = "<group>"; };
+		2230066D1989202400886294 /* prelude_analysis_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_20.png; sourceTree = "<group>"; };
+		2230066E1989202400886294 /* prelude_analysis_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_21.png; sourceTree = "<group>"; };
+		2230066F1989202400886294 /* prelude_analysis_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_22.png; sourceTree = "<group>"; };
+		223006701989202400886294 /* prelude_analysis_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_23.png; sourceTree = "<group>"; };
+		223006711989202400886294 /* prelude_analysis_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_24.png; sourceTree = "<group>"; };
+		223006721989202400886294 /* prelude_analysis_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_25.png; sourceTree = "<group>"; };
+		223006731989202400886294 /* prelude_analysis_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_26.png; sourceTree = "<group>"; };
+		223006741989202400886294 /* prelude_analysis_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_27.png; sourceTree = "<group>"; };
+		223006751989202400886294 /* prelude_analysis_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_28.png; sourceTree = "<group>"; };
+		223006761989202400886294 /* prelude_analysis_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_29.png; sourceTree = "<group>"; };
+		223006771989202400886294 /* prelude_analysis_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_30.png; sourceTree = "<group>"; };
+		223006781989202400886294 /* prelude_analysis_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_31.png; sourceTree = "<group>"; };
+		223006791989202400886294 /* prelude_analysis_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_32.png; sourceTree = "<group>"; };
+		2230067A1989202400886294 /* prelude_analysis_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_33.png; sourceTree = "<group>"; };
+		2230067B1989202400886294 /* prelude_analysis_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_34.png; sourceTree = "<group>"; };
+		2230067C1989202400886294 /* prelude_analysis_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_analysis_35.png; sourceTree = "<group>"; };
+		223006A01989229D00886294 /* prelude_treb_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_22.png; sourceTree = "<group>"; };
+		223006A11989229D00886294 /* prelude_treb_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_23.png; sourceTree = "<group>"; };
+		223006A4198922AC00886294 /* prelude_treb_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_32.png; sourceTree = "<group>"; };
+		223006A5198922AC00886294 /* prelude_treb_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_treb_33.png; sourceTree = "<group>"; };
+		223006A8198922C700886294 /* prelude_bass_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_22.png; sourceTree = "<group>"; };
+		223006A9198922C700886294 /* prelude_bass_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prelude_bass_23.png; sourceTree = "<group>"; };
+		223006AC198EA48A00886294 /* FullClef_Bass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullClef_Bass.png; sourceTree = "<group>"; };
+		223006AD198EA48A00886294 /* FullClef_Treble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullClef_Treble.png; sourceTree = "<group>"; };
+		224C3FDC18B5804E006A1F8C /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		224C3FDD18B5804E006A1F8C /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		224C3FDE18B5804E006A1F8C /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		224C3FDF18B5804E006A1F8C /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		224C3FE018B5804E006A1F8C /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		224C3FE118B5804E006A1F8C /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		224C3FE218B5804E006A1F8C /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		224C3FE318B5804E006A1F8C /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		224C3FE418B5804E006A1F8C /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		224C3FE518B5804E006A1F8C /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		224C3FE618B5804E006A1F8C /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		224C3FE718B5804E006A1F8C /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		224C3FE818B5804E006A1F8C /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		224C3FE918B5804E006A1F8C /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		224C3FEA18B5804E006A1F8C /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		224C3FEB18B5804E006A1F8C /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		224C3FEC18B5804E006A1F8C /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		224C3FF518B5852E006A1F8C /* TrackinglineOLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackinglineOLD.png; sourceTree = "<group>"; };
+		2279D1CF18AAAF2F00085FB2 /* Score APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2279D1D218AAAF2F00085FB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2279D1D418AAAF2F00085FB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2279D1D618AAAF2F00085FB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2279D1D818AAAF3000085FB2 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		2279D1DC18AAAF3000085FB2 /* Score APP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Score APP-Info.plist"; sourceTree = "<group>"; };
+		2279D1DE18AAAF3000085FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2279D1E018AAAF3000085FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2279D1E218AAAF3000085FB2 /* Score APP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Score APP-Prefix.pch"; sourceTree = "<group>"; };
+		2279D1E318AAAF3000085FB2 /* RFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFAppDelegate.h; sourceTree = "<group>"; };
+		2279D1E418AAAF3000085FB2 /* RFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAppDelegate.m; sourceTree = "<group>"; };
+		2279D1E718AAAF3000085FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2279D1E918AAAF3000085FB2 /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
+		2279D1EA18AAAF3000085FB2 /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
+		2279D1EC18AAAF3000085FB2 /* RFVideoScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFVideoScene.h; sourceTree = "<group>"; };
+		2279D1ED18AAAF3000085FB2 /* RFVideoScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFVideoScene.m; sourceTree = "<group>"; };
+		2279D1F118AAAF3000085FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2279D1F718AAAF3000085FB2 /* Score APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2279D1F818AAAF3000085FB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2279D20018AAAF3000085FB2 /* Score APPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Score APPTests-Info.plist"; sourceTree = "<group>"; };
+		2279D20218AAAF3000085FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2279D20418AAAF3000085FB2 /* Score_APPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Score_APPTests.m; sourceTree = "<group>"; };
+		2279D20E18AAB48E00085FB2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2279D20F18AAB48E00085FB2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2279D21018AAB48E00085FB2 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		2279D21118AAB48E00085FB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22855701198011B500B46069 /* FullClef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullClef.png; sourceTree = "<group>"; };
+		228557041980122500B46069 /* BachPrelude.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BachPrelude.m4a; sourceTree = "<group>"; };
+		2292E1F8190597AC007F1B98 /* clef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clef.png; sourceTree = "<group>"; };
+		2292E1FA19070B8B007F1B98 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2292E1FC19070D01007F1B98 /* fugueBach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fugueBach.mp3; sourceTree = "<group>"; };
+		2292E1FD19070D01007F1B98 /* preludeBach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = preludeBach.mp3; sourceTree = "<group>"; };
+		22A92F7318B1614B002B2517 /* RFScoreSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFScoreSheet.h; sourceTree = "<group>"; };
+		22A92F7418B1614B002B2517 /* RFScoreSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFScoreSheet.m; sourceTree = "<group>"; };
+		22A92F7618B169C4002B2517 /* RFScoreScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFScoreScene.h; sourceTree = "<group>"; };
+		22A92F7718B169C4002B2517 /* RFScoreScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFScoreScene.m; sourceTree = "<group>"; };
+		22A92F7918B169D8002B2517 /* RFSynopsisScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSynopsisScene.h; sourceTree = "<group>"; };
+		22A92F7A18B169D8002B2517 /* RFSynopsisScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSynopsisScene.m; sourceTree = "<group>"; };
+		22A92F7C18B169E9002B2517 /* RFPurchaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFPurchaseScene.h; sourceTree = "<group>"; };
+		22A92F7D18B169E9002B2517 /* RFPurchaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFPurchaseScene.m; sourceTree = "<group>"; };
+		22C53EBF18BCE8000066393E /* bach_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bach_001.png; sourceTree = "<group>"; };
+		22C53EC018BCE8000066393E /* bach_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bach_002.png; sourceTree = "<group>"; };
+		22C53EC118BCE8000066393E /* bach_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bach_003.png; sourceTree = "<group>"; };
+		22C53EC218BCE8000066393E /* bach_004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bach_004.png; sourceTree = "<group>"; };
+		22C53EC318BCE8000066393E /* bach_clef_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bach_clef_640.png; sourceTree = "<group>"; };
+		22CAFCAA195CA36400E01DE6 /* Trackingline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trackingline.png; sourceTree = "<group>"; };
+		22D88A5D193E006F00F8611C /* BachPrelude_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_25.png; sourceTree = "<group>"; };
+		22D88A5E193E006F00F8611C /* BachPrelude_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_26.png; sourceTree = "<group>"; };
+		22D88A5F193E006F00F8611C /* BachPrelude_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_27.png; sourceTree = "<group>"; };
+		22D88A60193E006F00F8611C /* BachPrelude_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_34.png; sourceTree = "<group>"; };
+		22D88A61193E006F00F8611C /* BachPrelude_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_35.png; sourceTree = "<group>"; };
+		22DEE836190FEAA2009BA757 /* BachPrelude_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_16.png; sourceTree = "<group>"; };
+		22DEE837190FEAA2009BA757 /* BachPrelude_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_17.png; sourceTree = "<group>"; };
+		22DEE838190FEAA2009BA757 /* BachPrelude_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_18.png; sourceTree = "<group>"; };
+		22DEE839190FEAA2009BA757 /* BachPrelude_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_19.png; sourceTree = "<group>"; };
+		22DEE83A190FEAA2009BA757 /* BachPrelude_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_20.png; sourceTree = "<group>"; };
+		22DEE83B190FEAA2009BA757 /* BachPrelude_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_21.png; sourceTree = "<group>"; };
+		22DEE83C190FEAA2009BA757 /* BachPrelude_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_22.png; sourceTree = "<group>"; };
+		22DEE83D190FEAA2009BA757 /* BachPrelude_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_23.png; sourceTree = "<group>"; };
+		22DEE83E190FEAA2009BA757 /* BachPrelude_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_24.png; sourceTree = "<group>"; };
+		22DEE83F190FEAA2009BA757 /* BachPrelude_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_28.png; sourceTree = "<group>"; };
+		22DEE840190FEAA2009BA757 /* BachPrelude_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_29.png; sourceTree = "<group>"; };
+		22DEE841190FEAA2009BA757 /* BachPrelude_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_30.png; sourceTree = "<group>"; };
+		22DEE842190FEAA2009BA757 /* BachPrelude_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_31.png; sourceTree = "<group>"; };
+		22DEE843190FEAA2009BA757 /* BachPrelude_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_32.png; sourceTree = "<group>"; };
+		22DEE844190FEAA2009BA757 /* BachPrelude_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BachPrelude_33.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2279D1CC18AAAF2F00085FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2292E1FB19070B8B007F1B98 /* MediaPlayer.framework in Frameworks */,
+				2279D21218AAB48E00085FB2 /* AVFoundation.framework in Frameworks */,
+				2279D21318AAB48E00085FB2 /* CoreMedia.framework in Frameworks */,
+				2279D21418AAB48E00085FB2 /* CoreMIDI.framework in Frameworks */,
+				2279D21518AAB48E00085FB2 /* QuartzCore.framework in Frameworks */,
+				2279D1D518AAAF2F00085FB2 /* CoreGraphics.framework in Frameworks */,
+				2279D1D718AAAF2F00085FB2 /* UIKit.framework in Frameworks */,
+				2279D1D918AAAF3000085FB2 /* SpriteKit.framework in Frameworks */,
+				2279D1D318AAAF2F00085FB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2279D1F418AAAF3000085FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279D1F918AAAF3000085FB2 /* XCTest.framework in Frameworks */,
+				2279D1FB18AAAF3000085FB2 /* UIKit.framework in Frameworks */,
+				2279D1FA18AAAF3000085FB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224C3FB818B55818006A1F8C /* bach */ = {
+			isa = PBXGroup;
+			children = (
+				22C53EBF18BCE8000066393E /* bach_001.png */,
+				22C53EC018BCE8000066393E /* bach_002.png */,
+				22C53EC118BCE8000066393E /* bach_003.png */,
+				22C53EC218BCE8000066393E /* bach_004.png */,
+				22C53EC318BCE8000066393E /* bach_clef_640.png */,
+				22CAFCAA195CA36400E01DE6 /* Trackingline.png */,
+				224C3FF518B5852E006A1F8C /* TrackinglineOLD.png */,
+			);
+			path = bach;
+			sourceTree = "<group>";
+		};
+		224C3FDB18B5804E006A1F8C /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				224C3FDC18B5804E006A1F8C /* SKAction+SKTExtras.h */,
+				224C3FDD18B5804E006A1F8C /* SKAction+SKTExtras.m */,
+				224C3FDE18B5804E006A1F8C /* SKAction+SKTSpecialEffects.h */,
+				224C3FDF18B5804E006A1F8C /* SKAction+SKTSpecialEffects.m */,
+				224C3FE018B5804E006A1F8C /* SKEmitterNode+SKTExtras.h */,
+				224C3FE118B5804E006A1F8C /* SKEmitterNode+SKTExtras.m */,
+				224C3FE218B5804E006A1F8C /* SKNode+SKTDebugDraw.h */,
+				224C3FE318B5804E006A1F8C /* SKNode+SKTDebugDraw.m */,
+				224C3FE418B5804E006A1F8C /* SKNode+SKTExtras.h */,
+				224C3FE518B5804E006A1F8C /* SKNode+SKTExtras.m */,
+				224C3FE618B5804E006A1F8C /* SKTAudio.h */,
+				224C3FE718B5804E006A1F8C /* SKTAudio.m */,
+				224C3FE818B5804E006A1F8C /* SKTEffects.h */,
+				224C3FE918B5804E006A1F8C /* SKTEffects.m */,
+				224C3FEA18B5804E006A1F8C /* SKTTimingFunctions.h */,
+				224C3FEB18B5804E006A1F8C /* SKTTimingFunctions.m */,
+				224C3FEC18B5804E006A1F8C /* SKTUtils.h */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		2279D1C618AAAF2F00085FB2 = {
+			isa = PBXGroup;
+			children = (
+				2279D1DA18AAAF3000085FB2 /* Score APP */,
+				2279D1FE18AAAF3000085FB2 /* Score APPTests */,
+				2279D1D118AAAF2F00085FB2 /* Frameworks */,
+				2279D1D018AAAF2F00085FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2279D1D018AAAF2F00085FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2279D1CF18AAAF2F00085FB2 /* Score APP.app */,
+				2279D1F718AAAF3000085FB2 /* Score APPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2279D1D118AAAF2F00085FB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2292E1FA19070B8B007F1B98 /* MediaPlayer.framework */,
+				2279D20E18AAB48E00085FB2 /* AVFoundation.framework */,
+				2279D20F18AAB48E00085FB2 /* CoreMedia.framework */,
+				2279D21018AAB48E00085FB2 /* CoreMIDI.framework */,
+				2279D21118AAB48E00085FB2 /* QuartzCore.framework */,
+				2279D1D218AAAF2F00085FB2 /* Foundation.framework */,
+				2279D1D418AAAF2F00085FB2 /* CoreGraphics.framework */,
+				2279D1D618AAAF2F00085FB2 /* UIKit.framework */,
+				2279D1D818AAAF3000085FB2 /* SpriteKit.framework */,
+				2279D1F818AAAF3000085FB2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2279D1DA18AAAF3000085FB2 /* Score APP */ = {
+			isa = PBXGroup;
+			children = (
+				2285562A1980101B00B46069 /* score */,
+				2292E1FC19070D01007F1B98 /* fugueBach.mp3 */,
+				2292E1FD19070D01007F1B98 /* preludeBach.mp3 */,
+				222550C719191A7C00DEBA6C /* preludeBach.m4a */,
+				2292E1D91905978F007F1B98 /* bachPrelude */,
+				224C3FDB18B5804E006A1F8C /* SKTUtils */,
+				224C3FB818B55818006A1F8C /* bach */,
+				2279D1E318AAAF3000085FB2 /* RFAppDelegate.h */,
+				2279D1E418AAAF3000085FB2 /* RFAppDelegate.m */,
+				22A92F7318B1614B002B2517 /* RFScoreSheet.h */,
+				22A92F7418B1614B002B2517 /* RFScoreSheet.m */,
+				2279D1E618AAAF3000085FB2 /* Main.storyboard */,
+				2279D1E918AAAF3000085FB2 /* RFViewController.h */,
+				2279D1EA18AAAF3000085FB2 /* RFViewController.m */,
+				2279D1EC18AAAF3000085FB2 /* RFVideoScene.h */,
+				2279D1ED18AAAF3000085FB2 /* RFVideoScene.m */,
+				22A92F7618B169C4002B2517 /* RFScoreScene.h */,
+				22A92F7718B169C4002B2517 /* RFScoreScene.m */,
+				22A92F7918B169D8002B2517 /* RFSynopsisScene.h */,
+				22A92F7A18B169D8002B2517 /* RFSynopsisScene.m */,
+				22A92F7C18B169E9002B2517 /* RFPurchaseScene.h */,
+				22A92F7D18B169E9002B2517 /* RFPurchaseScene.m */,
+				2279D1F118AAAF3000085FB2 /* Images.xcassets */,
+				2279D1DB18AAAF3000085FB2 /* Supporting Files */,
+			);
+			path = "Score APP";
+			sourceTree = "<group>";
+		};
+		2279D1DB18AAAF3000085FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2279D1DC18AAAF3000085FB2 /* Score APP-Info.plist */,
+				2279D1DD18AAAF3000085FB2 /* InfoPlist.strings */,
+				2279D1E018AAAF3000085FB2 /* main.m */,
+				2279D1E218AAAF3000085FB2 /* Score APP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2279D1FE18AAAF3000085FB2 /* Score APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				2279D20418AAAF3000085FB2 /* Score_APPTests.m */,
+				2279D1FF18AAAF3000085FB2 /* Supporting Files */,
+			);
+			path = "Score APPTests";
+			sourceTree = "<group>";
+		};
+		2279D1FF18AAAF3000085FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2279D20018AAAF3000085FB2 /* Score APPTests-Info.plist */,
+				2279D20118AAAF3000085FB2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2285562A1980101B00B46069 /* score */ = {
+			isa = PBXGroup;
+			children = (
+				228557031980121000B46069 /* audio */,
+				2285562E1980104800B46069 /* assets */,
+				2285562D1980103E00B46069 /* treble */,
+				2285562C1980103800B46069 /* bass */,
+				2285562B1980102C00B46069 /* analysis */,
+			);
+			name = score;
+			sourceTree = "<group>";
+		};
+		2285562B1980102C00B46069 /* analysis */ = {
+			isa = PBXGroup;
+			children = (
+				2230065A1989202400886294 /* prelude_analysis_01.png */,
+				2230065B1989202400886294 /* prelude_analysis_02.png */,
+				2230065C1989202400886294 /* prelude_analysis_03.png */,
+				2230065D1989202400886294 /* prelude_analysis_04.png */,
+				2230065E1989202400886294 /* prelude_analysis_05.png */,
+				2230065F1989202400886294 /* prelude_analysis_06.png */,
+				223006601989202400886294 /* prelude_analysis_07.png */,
+				223006611989202400886294 /* prelude_analysis_08.png */,
+				223006621989202400886294 /* prelude_analysis_09.png */,
+				223006631989202400886294 /* prelude_analysis_10.png */,
+				223006641989202400886294 /* prelude_analysis_11.png */,
+				223006651989202400886294 /* prelude_analysis_12.png */,
+				223006661989202400886294 /* prelude_analysis_13.png */,
+				223006671989202400886294 /* prelude_analysis_14.png */,
+				223006681989202400886294 /* prelude_analysis_15.png */,
+				223006691989202400886294 /* prelude_analysis_16.png */,
+				2230066A1989202400886294 /* prelude_analysis_17.png */,
+				2230066B1989202400886294 /* prelude_analysis_18.png */,
+				2230066C1989202400886294 /* prelude_analysis_19.png */,
+				2230066D1989202400886294 /* prelude_analysis_20.png */,
+				2230066E1989202400886294 /* prelude_analysis_21.png */,
+				2230066F1989202400886294 /* prelude_analysis_22.png */,
+				223006701989202400886294 /* prelude_analysis_23.png */,
+				223006711989202400886294 /* prelude_analysis_24.png */,
+				223006721989202400886294 /* prelude_analysis_25.png */,
+				223006731989202400886294 /* prelude_analysis_26.png */,
+				223006741989202400886294 /* prelude_analysis_27.png */,
+				223006751989202400886294 /* prelude_analysis_28.png */,
+				223006761989202400886294 /* prelude_analysis_29.png */,
+				223006771989202400886294 /* prelude_analysis_30.png */,
+				223006781989202400886294 /* prelude_analysis_31.png */,
+				223006791989202400886294 /* prelude_analysis_32.png */,
+				2230067A1989202400886294 /* prelude_analysis_33.png */,
+				2230067B1989202400886294 /* prelude_analysis_34.png */,
+				2230067C1989202400886294 /* prelude_analysis_35.png */,
+			);
+			name = analysis;
+			sourceTree = "<group>";
+		};
+		2285562C1980103800B46069 /* bass */ = {
+			isa = PBXGroup;
+			children = (
+				223006141989201800886294 /* prelude_bass_01.png */,
+				223006151989201800886294 /* prelude_bass_02.png */,
+				223006161989201800886294 /* prelude_bass_03.png */,
+				223006171989201800886294 /* prelude_bass_04.png */,
+				223006181989201800886294 /* prelude_bass_05.png */,
+				223006191989201800886294 /* prelude_bass_06.png */,
+				2230061A1989201800886294 /* prelude_bass_07.png */,
+				2230061B1989201800886294 /* prelude_bass_08.png */,
+				2230061C1989201800886294 /* prelude_bass_09.png */,
+				2230061D1989201800886294 /* prelude_bass_10.png */,
+				2230061E1989201800886294 /* prelude_bass_11.png */,
+				2230061F1989201800886294 /* prelude_bass_12.png */,
+				223006201989201800886294 /* prelude_bass_13.png */,
+				223006211989201800886294 /* prelude_bass_14.png */,
+				223006221989201800886294 /* prelude_bass_15.png */,
+				223006231989201800886294 /* prelude_bass_16.png */,
+				223006241989201800886294 /* prelude_bass_17.png */,
+				223006251989201800886294 /* prelude_bass_18.png */,
+				223006261989201800886294 /* prelude_bass_19.png */,
+				223006271989201800886294 /* prelude_bass_20.png */,
+				223006281989201800886294 /* prelude_bass_21.png */,
+				223006A8198922C700886294 /* prelude_bass_22.png */,
+				223006A9198922C700886294 /* prelude_bass_23.png */,
+				2230062B1989201800886294 /* prelude_bass_24.png */,
+				2230062C1989201800886294 /* prelude_bass_25.png */,
+				2230062D1989201800886294 /* prelude_bass_26.png */,
+				2230062E1989201800886294 /* prelude_bass_27.png */,
+				2230062F1989201800886294 /* prelude_bass_28.png */,
+				223006301989201800886294 /* prelude_bass_29.png */,
+				223006311989201800886294 /* prelude_bass_30.png */,
+				223006321989201800886294 /* prelude_bass_31.png */,
+				223006331989201800886294 /* prelude_bass_32.png */,
+				223006341989201800886294 /* prelude_bass_33.png */,
+				223006351989201800886294 /* prelude_bass_34.png */,
+				223006361989201800886294 /* prelude_bass_35.png */,
+			);
+			name = bass;
+			sourceTree = "<group>";
+		};
+		2285562D1980103E00B46069 /* treble */ = {
+			isa = PBXGroup;
+			children = (
+				223005CE1989200500886294 /* prelude_treb_01.png */,
+				223005CF1989200500886294 /* prelude_treb_02.png */,
+				223005D01989200500886294 /* prelude_treb_03.png */,
+				223005D11989200500886294 /* prelude_treb_04.png */,
+				223005D21989200500886294 /* prelude_treb_05.png */,
+				223005D31989200500886294 /* prelude_treb_06.png */,
+				223005D41989200500886294 /* prelude_treb_07.png */,
+				223005D51989200500886294 /* prelude_treb_08.png */,
+				223005D61989200500886294 /* prelude_treb_09.png */,
+				223005D71989200500886294 /* prelude_treb_10.png */,
+				223005D81989200500886294 /* prelude_treb_11.png */,
+				223005D91989200500886294 /* prelude_treb_12.png */,
+				223005DA1989200500886294 /* prelude_treb_13.png */,
+				223005DB1989200500886294 /* prelude_treb_14.png */,
+				223005DC1989200500886294 /* prelude_treb_15.png */,
+				223006A01989229D00886294 /* prelude_treb_22.png */,
+				223006A11989229D00886294 /* prelude_treb_23.png */,
+				223005DD1989200500886294 /* prelude_treb_16.png */,
+				223005DE1989200500886294 /* prelude_treb_17.png */,
+				223005DF1989200500886294 /* prelude_treb_18.png */,
+				223005E01989200500886294 /* prelude_treb_19.png */,
+				223005E11989200500886294 /* prelude_treb_20.png */,
+				223005E21989200500886294 /* prelude_treb_21.png */,
+				223005E51989200500886294 /* prelude_treb_24.png */,
+				223005E61989200500886294 /* prelude_treb_25.png */,
+				223005E71989200500886294 /* prelude_treb_26.png */,
+				223005E81989200500886294 /* prelude_treb_27.png */,
+				223005E91989200500886294 /* prelude_treb_28.png */,
+				223005EA1989200500886294 /* prelude_treb_29.png */,
+				223005EB1989200500886294 /* prelude_treb_30.png */,
+				223005EC1989200500886294 /* prelude_treb_31.png */,
+				223006A4198922AC00886294 /* prelude_treb_32.png */,
+				223006A5198922AC00886294 /* prelude_treb_33.png */,
+				223005EF1989200500886294 /* prelude_treb_34.png */,
+				223005F01989200500886294 /* prelude_treb_35.png */,
+			);
+			name = treble;
+			sourceTree = "<group>";
+		};
+		2285562E1980104800B46069 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				223006AC198EA48A00886294 /* FullClef_Bass.png */,
+				223006AD198EA48A00886294 /* FullClef_Treble.png */,
+				22855701198011B500B46069 /* FullClef.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		228557031980121000B46069 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				228557041980122500B46069 /* BachPrelude.m4a */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		2292E1D91905978F007F1B98 /* bachPrelude */ = {
+			isa = PBXGroup;
+			children = (
+				222550E719229A1900DEBA6C /* Synopsis.png */,
+				222550C91922987400DEBA6C /* BachPrelude_01.png */,
+				222550CA1922987400DEBA6C /* BachPrelude_02.png */,
+				222550CB1922987400DEBA6C /* BachPrelude_03.png */,
+				222550CC1922987400DEBA6C /* BachPrelude_04.png */,
+				222550CD1922987400DEBA6C /* BachPrelude_05.png */,
+				222550CE1922987400DEBA6C /* BachPrelude_06.png */,
+				222550CF1922987400DEBA6C /* BachPrelude_07.png */,
+				222550D01922987400DEBA6C /* BachPrelude_08.png */,
+				22D88A5D193E006F00F8611C /* BachPrelude_25.png */,
+				22D88A5E193E006F00F8611C /* BachPrelude_26.png */,
+				22D88A5F193E006F00F8611C /* BachPrelude_27.png */,
+				22D88A60193E006F00F8611C /* BachPrelude_34.png */,
+				22D88A61193E006F00F8611C /* BachPrelude_35.png */,
+				222550D11922987400DEBA6C /* BachPrelude_09.png */,
+				222550D21922987400DEBA6C /* BachPrelude_10.png */,
+				222550D31922987400DEBA6C /* BachPrelude_11.png */,
+				222550D41922987400DEBA6C /* BachPrelude_12.png */,
+				222550D51922987400DEBA6C /* BachPrelude_13.png */,
+				222550D61922987400DEBA6C /* BachPrelude_14.png */,
+				222550D71922987400DEBA6C /* BachPrelude_15.png */,
+				2292E1F8190597AC007F1B98 /* clef.png */,
+				22DEE836190FEAA2009BA757 /* BachPrelude_16.png */,
+				22DEE837190FEAA2009BA757 /* BachPrelude_17.png */,
+				22DEE838190FEAA2009BA757 /* BachPrelude_18.png */,
+				22DEE839190FEAA2009BA757 /* BachPrelude_19.png */,
+				22DEE83A190FEAA2009BA757 /* BachPrelude_20.png */,
+				22DEE83B190FEAA2009BA757 /* BachPrelude_21.png */,
+				22DEE83C190FEAA2009BA757 /* BachPrelude_22.png */,
+				22DEE83D190FEAA2009BA757 /* BachPrelude_23.png */,
+				22DEE83E190FEAA2009BA757 /* BachPrelude_24.png */,
+				22DEE83F190FEAA2009BA757 /* BachPrelude_28.png */,
+				22DEE840190FEAA2009BA757 /* BachPrelude_29.png */,
+				22DEE841190FEAA2009BA757 /* BachPrelude_30.png */,
+				22DEE842190FEAA2009BA757 /* BachPrelude_31.png */,
+				22DEE843190FEAA2009BA757 /* BachPrelude_32.png */,
+				22DEE844190FEAA2009BA757 /* BachPrelude_33.png */,
+			);
+			name = bachPrelude;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2279D1CE18AAAF2F00085FB2 /* Score APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2279D20818AAAF3000085FB2 /* Build configuration list for PBXNativeTarget "Score APP" */;
+			buildPhases = (
+				2279D1CB18AAAF2F00085FB2 /* Sources */,
+				2279D1CC18AAAF2F00085FB2 /* Frameworks */,
+				2279D1CD18AAAF2F00085FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Score APP";
+			productName = "Score APP";
+			productReference = 2279D1CF18AAAF2F00085FB2 /* Score APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2279D1F618AAAF3000085FB2 /* Score APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2279D20B18AAAF3000085FB2 /* Build configuration list for PBXNativeTarget "Score APPTests" */;
+			buildPhases = (
+				2279D1F318AAAF3000085FB2 /* Sources */,
+				2279D1F418AAAF3000085FB2 /* Frameworks */,
+				2279D1F518AAAF3000085FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2279D1FD18AAAF3000085FB2 /* PBXTargetDependency */,
+			);
+			name = "Score APPTests";
+			productName = "Score APPTests";
+			productReference = 2279D1F718AAAF3000085FB2 /* Score APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2279D1C718AAAF2F00085FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Refiners Fire";
+				TargetAttributes = {
+					2279D1CE18AAAF2F00085FB2 = {
+						DevelopmentTeam = 8BLFRWF9GQ;
+					};
+					2279D1F618AAAF3000085FB2 = {
+						TestTargetID = 2279D1CE18AAAF2F00085FB2;
+					};
+				};
+			};
+			buildConfigurationList = 2279D1CA18AAAF2F00085FB2 /* Build configuration list for PBXProject "Score APP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2279D1C618AAAF2F00085FB2;
+			productRefGroup = 2279D1D018AAAF2F00085FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2279D1CE18AAAF2F00085FB2 /* Score APP */,
+				2279D1F618AAAF3000085FB2 /* Score APPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2279D1CD18AAAF2F00085FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222550D81922987400DEBA6C /* BachPrelude_01.png in Resources */,
+				223006391989201800886294 /* prelude_bass_03.png in Resources */,
+				22DEE849190FEAA2009BA757 /* BachPrelude_20.png in Resources */,
+				223006821989202400886294 /* prelude_analysis_06.png in Resources */,
+				22D88A66193E006F00F8611C /* BachPrelude_35.png in Resources */,
+				222550D91922987400DEBA6C /* BachPrelude_02.png in Resources */,
+				2230063D1989201800886294 /* prelude_bass_07.png in Resources */,
+				2230063F1989201800886294 /* prelude_bass_09.png in Resources */,
+				223006041989200500886294 /* prelude_treb_20.png in Resources */,
+				2230068C1989202400886294 /* prelude_analysis_16.png in Resources */,
+				223006891989202400886294 /* prelude_analysis_13.png in Resources */,
+				22DEE84C190FEAA2009BA757 /* BachPrelude_23.png in Resources */,
+				223005FC1989200500886294 /* prelude_treb_12.png in Resources */,
+				223006801989202400886294 /* prelude_analysis_04.png in Resources */,
+				222550E51922987400DEBA6C /* BachPrelude_14.png in Resources */,
+				2230063C1989201800886294 /* prelude_bass_06.png in Resources */,
+				223006851989202400886294 /* prelude_analysis_09.png in Resources */,
+				22DEE847190FEAA2009BA757 /* BachPrelude_18.png in Resources */,
+				2230064A1989201800886294 /* prelude_bass_20.png in Resources */,
+				223006491989201800886294 /* prelude_bass_19.png in Resources */,
+				223006131989200500886294 /* prelude_treb_35.png in Resources */,
+				222550DC1922987400DEBA6C /* BachPrelude_05.png in Resources */,
+				223006451989201800886294 /* prelude_bass_15.png in Resources */,
+				222550E819229A1900DEBA6C /* Synopsis.png in Resources */,
+				22D88A65193E006F00F8611C /* BachPrelude_34.png in Resources */,
+				2230063A1989201800886294 /* prelude_bass_04.png in Resources */,
+				222550E61922987400DEBA6C /* BachPrelude_15.png in Resources */,
+				2230069F1989202400886294 /* prelude_analysis_35.png in Resources */,
+				223006951989202400886294 /* prelude_analysis_25.png in Resources */,
+				223006411989201800886294 /* prelude_bass_11.png in Resources */,
+				22DEE851190FEAA2009BA757 /* BachPrelude_31.png in Resources */,
+				223006001989200500886294 /* prelude_treb_16.png in Resources */,
+				2230060A1989200500886294 /* prelude_treb_26.png in Resources */,
+				22D88A62193E006F00F8611C /* BachPrelude_25.png in Resources */,
+				223006AB198922C700886294 /* prelude_bass_23.png in Resources */,
+				223006581989201800886294 /* prelude_bass_34.png in Resources */,
+				223006541989201800886294 /* prelude_bass_30.png in Resources */,
+				222550C819191A7C00DEBA6C /* preludeBach.m4a in Resources */,
+				22CAFCAB195CA36400E01DE6 /* Trackingline.png in Resources */,
+				223005FD1989200500886294 /* prelude_treb_13.png in Resources */,
+				223006501989201800886294 /* prelude_bass_26.png in Resources */,
+				223006AE198EA48A00886294 /* FullClef_Bass.png in Resources */,
+				2230069A1989202400886294 /* prelude_analysis_30.png in Resources */,
+				2230060E1989200500886294 /* prelude_treb_30.png in Resources */,
+				222550DA1922987400DEBA6C /* BachPrelude_03.png in Resources */,
+				223005F21989200500886294 /* prelude_treb_02.png in Resources */,
+				22DEE84B190FEAA2009BA757 /* BachPrelude_22.png in Resources */,
+				22DEE848190FEAA2009BA757 /* BachPrelude_19.png in Resources */,
+				223006551989201800886294 /* prelude_bass_31.png in Resources */,
+				2230068D1989202400886294 /* prelude_analysis_17.png in Resources */,
+				223006481989201800886294 /* prelude_bass_18.png in Resources */,
+				22DEE852190FEAA2009BA757 /* BachPrelude_32.png in Resources */,
+				223006431989201800886294 /* prelude_bass_13.png in Resources */,
+				222550DB1922987400DEBA6C /* BachPrelude_04.png in Resources */,
+				2230068E1989202400886294 /* prelude_analysis_18.png in Resources */,
+				22DEE846190FEAA2009BA757 /* BachPrelude_17.png in Resources */,
+				223006A31989229D00886294 /* prelude_treb_23.png in Resources */,
+				223005F41989200500886294 /* prelude_treb_04.png in Resources */,
+				222550E01922987400DEBA6C /* BachPrelude_09.png in Resources */,
+				2230064E1989201800886294 /* prelude_bass_24.png in Resources */,
+				2230067F1989202400886294 /* prelude_analysis_03.png in Resources */,
+				223006591989201800886294 /* prelude_bass_35.png in Resources */,
+				223005F61989200500886294 /* prelude_treb_06.png in Resources */,
+				2230069E1989202400886294 /* prelude_analysis_34.png in Resources */,
+				223006841989202400886294 /* prelude_analysis_08.png in Resources */,
+				2230060D1989200500886294 /* prelude_treb_29.png in Resources */,
+				22DEE84A190FEAA2009BA757 /* BachPrelude_21.png in Resources */,
+				223006871989202400886294 /* prelude_analysis_11.png in Resources */,
+				2292E1FF19070D01007F1B98 /* preludeBach.mp3 in Resources */,
+				223006911989202400886294 /* prelude_analysis_21.png in Resources */,
+				223006531989201800886294 /* prelude_bass_29.png in Resources */,
+				223006091989200500886294 /* prelude_treb_25.png in Resources */,
+				2292E1F9190597AC007F1B98 /* clef.png in Resources */,
+				22D88A64193E006F00F8611C /* BachPrelude_27.png in Resources */,
+				222550E41922987400DEBA6C /* BachPrelude_13.png in Resources */,
+				222550DF1922987400DEBA6C /* BachPrelude_08.png in Resources */,
+				2230068A1989202400886294 /* prelude_analysis_14.png in Resources */,
+				223006AF198EA48A00886294 /* FullClef_Treble.png in Resources */,
+				2230064F1989201800886294 /* prelude_bass_25.png in Resources */,
+				223006561989201800886294 /* prelude_bass_32.png in Resources */,
+				22C53EC818BCE8000066393E /* bach_clef_640.png in Resources */,
+				22C53EC718BCE8000066393E /* bach_004.png in Resources */,
+				223006421989201800886294 /* prelude_bass_12.png in Resources */,
+				22DEE84D190FEAA2009BA757 /* BachPrelude_24.png in Resources */,
+				2230060B1989200500886294 /* prelude_treb_27.png in Resources */,
+				223006471989201800886294 /* prelude_bass_17.png in Resources */,
+				223006511989201800886294 /* prelude_bass_27.png in Resources */,
+				22C53EC418BCE8000066393E /* bach_001.png in Resources */,
+				223005FE1989200500886294 /* prelude_treb_14.png in Resources */,
+				223006381989201800886294 /* prelude_bass_02.png in Resources */,
+				2230064B1989201800886294 /* prelude_bass_21.png in Resources */,
+				223006961989202400886294 /* prelude_analysis_26.png in Resources */,
+				2230060C1989200500886294 /* prelude_treb_28.png in Resources */,
+				223005FA1989200500886294 /* prelude_treb_10.png in Resources */,
+				223006011989200500886294 /* prelude_treb_17.png in Resources */,
+				223006A7198922AC00886294 /* prelude_treb_33.png in Resources */,
+				223006021989200500886294 /* prelude_treb_18.png in Resources */,
+				223005F71989200500886294 /* prelude_treb_07.png in Resources */,
+				223006861989202400886294 /* prelude_analysis_10.png in Resources */,
+				223006441989201800886294 /* prelude_bass_14.png in Resources */,
+				223006971989202400886294 /* prelude_analysis_27.png in Resources */,
+				222550DE1922987400DEBA6C /* BachPrelude_07.png in Resources */,
+				223005F91989200500886294 /* prelude_treb_09.png in Resources */,
+				222550E31922987400DEBA6C /* BachPrelude_12.png in Resources */,
+				223006401989201800886294 /* prelude_bass_10.png in Resources */,
+				2230069D1989202400886294 /* prelude_analysis_33.png in Resources */,
+				2230067E1989202400886294 /* prelude_analysis_02.png in Resources */,
+				223006921989202400886294 /* prelude_analysis_22.png in Resources */,
+				222550DD1922987400DEBA6C /* BachPrelude_06.png in Resources */,
+				2230063E1989201800886294 /* prelude_bass_08.png in Resources */,
+				223006981989202400886294 /* prelude_analysis_28.png in Resources */,
+				223005F51989200500886294 /* prelude_treb_05.png in Resources */,
+				22DEE84F190FEAA2009BA757 /* BachPrelude_29.png in Resources */,
+				223006941989202400886294 /* prelude_analysis_24.png in Resources */,
+				223006031989200500886294 /* prelude_treb_19.png in Resources */,
+				223006A21989229D00886294 /* prelude_treb_22.png in Resources */,
+				22DEE845190FEAA2009BA757 /* BachPrelude_16.png in Resources */,
+				223006A6198922AC00886294 /* prelude_treb_32.png in Resources */,
+				222550E21922987400DEBA6C /* BachPrelude_11.png in Resources */,
+				22855702198011B500B46069 /* FullClef.png in Resources */,
+				223006121989200500886294 /* prelude_treb_34.png in Resources */,
+				224C3FF618B5852E006A1F8C /* TrackinglineOLD.png in Resources */,
+				223006811989202400886294 /* prelude_analysis_05.png in Resources */,
+				2230069C1989202400886294 /* prelude_analysis_32.png in Resources */,
+				223006081989200500886294 /* prelude_treb_24.png in Resources */,
+				223005F11989200500886294 /* prelude_treb_01.png in Resources */,
+				223006931989202400886294 /* prelude_analysis_23.png in Resources */,
+				22DEE850190FEAA2009BA757 /* BachPrelude_30.png in Resources */,
+				223006521989201800886294 /* prelude_bass_28.png in Resources */,
+				22C53EC618BCE8000066393E /* bach_003.png in Resources */,
+				2230069B1989202400886294 /* prelude_analysis_31.png in Resources */,
+				2279D1DF18AAAF3000085FB2 /* InfoPlist.strings in Resources */,
+				2279D1F218AAAF3000085FB2 /* Images.xcassets in Resources */,
+				223006AA198922C700886294 /* prelude_bass_22.png in Resources */,
+				223006571989201800886294 /* prelude_bass_33.png in Resources */,
+				2230068B1989202400886294 /* prelude_analysis_15.png in Resources */,
+				22DEE853190FEAA2009BA757 /* BachPrelude_33.png in Resources */,
+				2230063B1989201800886294 /* prelude_bass_05.png in Resources */,
+				223006051989200500886294 /* prelude_treb_21.png in Resources */,
+				223005FF1989200500886294 /* prelude_treb_15.png in Resources */,
+				223006901989202400886294 /* prelude_analysis_20.png in Resources */,
+				22DEE84E190FEAA2009BA757 /* BachPrelude_28.png in Resources */,
+				2230060F1989200500886294 /* prelude_treb_31.png in Resources */,
+				228557051980122500B46069 /* BachPrelude.m4a in Resources */,
+				223006881989202400886294 /* prelude_analysis_12.png in Resources */,
+				223005FB1989200500886294 /* prelude_treb_11.png in Resources */,
+				22D88A63193E006F00F8611C /* BachPrelude_26.png in Resources */,
+				222550E11922987400DEBA6C /* BachPrelude_10.png in Resources */,
+				2292E1FE19070D01007F1B98 /* fugueBach.mp3 in Resources */,
+				223006991989202400886294 /* prelude_analysis_29.png in Resources */,
+				2230067D1989202400886294 /* prelude_analysis_01.png in Resources */,
+				22C53EC518BCE8000066393E /* bach_002.png in Resources */,
+				223005F31989200500886294 /* prelude_treb_03.png in Resources */,
+				223005F81989200500886294 /* prelude_treb_08.png in Resources */,
+				2279D1E818AAAF3000085FB2 /* Main.storyboard in Resources */,
+				223006371989201800886294 /* prelude_bass_01.png in Resources */,
+				223006461989201800886294 /* prelude_bass_16.png in Resources */,
+				2230068F1989202400886294 /* prelude_analysis_19.png in Resources */,
+				223006831989202400886294 /* prelude_analysis_07.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2279D1F518AAAF3000085FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279D20318AAAF3000085FB2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2279D1CB18AAAF2F00085FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279D1E518AAAF3000085FB2 /* RFAppDelegate.m in Sources */,
+				224C3FEF18B5804E006A1F8C /* SKEmitterNode+SKTExtras.m in Sources */,
+				224C3FF418B5804E006A1F8C /* SKTTimingFunctions.m in Sources */,
+				2279D1E118AAAF3000085FB2 /* main.m in Sources */,
+				2279D1EE18AAAF3000085FB2 /* RFVideoScene.m in Sources */,
+				224C3FED18B5804E006A1F8C /* SKAction+SKTExtras.m in Sources */,
+				22A92F7B18B169D8002B2517 /* RFSynopsisScene.m in Sources */,
+				224C3FF018B5804E006A1F8C /* SKNode+SKTDebugDraw.m in Sources */,
+				224C3FF218B5804E006A1F8C /* SKTAudio.m in Sources */,
+				2279D1EB18AAAF3000085FB2 /* RFViewController.m in Sources */,
+				224C3FF118B5804E006A1F8C /* SKNode+SKTExtras.m in Sources */,
+				22A92F7E18B169E9002B2517 /* RFPurchaseScene.m in Sources */,
+				224C3FF318B5804E006A1F8C /* SKTEffects.m in Sources */,
+				22A92F7518B1614B002B2517 /* RFScoreSheet.m in Sources */,
+				22A92F7818B169C4002B2517 /* RFScoreScene.m in Sources */,
+				224C3FEE18B5804E006A1F8C /* SKAction+SKTSpecialEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2279D1F318AAAF3000085FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279D20518AAAF3000085FB2 /* Score_APPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2279D1FD18AAAF3000085FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2279D1CE18AAAF2F00085FB2 /* Score APP */;
+			targetProxy = 2279D1FC18AAAF3000085FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2279D1DD18AAAF3000085FB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2279D1DE18AAAF3000085FB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2279D1E618AAAF3000085FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2279D1E718AAAF3000085FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2279D20118AAAF3000085FB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2279D20218AAAF3000085FB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2279D20618AAAF3000085FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2279D20718AAAF3000085FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		2279D20918AAAF3000085FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score APP/Score APP-Prefix.pch";
+				INFOPLIST_FILE = "Score APP/Score APP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C1F2AC9E-4826-4BFF-8517-4A9D255B65FE";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2279D20A18AAAF3000085FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score APP/Score APP-Prefix.pch";
+				INFOPLIST_FILE = "Score APP/Score APP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C1F2AC9E-4826-4BFF-8517-4A9D255B65FE";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2279D20C18AAAF3000085FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Score APP.app/Score APP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score APP/Score APP-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Score APPTests/Score APPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2279D20D18AAAF3000085FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Score APP.app/Score APP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score APP/Score APP-Prefix.pch";
+				INFOPLIST_FILE = "Score APPTests/Score APPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2279D1CA18AAAF2F00085FB2 /* Build configuration list for PBXProject "Score APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2279D20618AAAF3000085FB2 /* Debug */,
+				2279D20718AAAF3000085FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2279D20818AAAF3000085FB2 /* Build configuration list for PBXNativeTarget "Score APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2279D20918AAAF3000085FB2 /* Debug */,
+				2279D20A18AAAF3000085FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2279D20B18AAAF3000085FB2 /* Build configuration list for PBXNativeTarget "Score APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2279D20C18AAAF3000085FB2 /* Debug */,
+				2279D20D18AAAF3000085FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2279D1C718AAAF2F00085FB2 /* Project object */;
+}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LVB-YS-i5n">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="CtS-rA-C9T">
+            <objects>
+                <viewController id="LVB-YS-i5n" customClass="RFViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DkQ-tC-7dZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="NKF-fG-StQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oHs-DU-uVm" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAD-mb-eth">
+                                <rect key="frame" x="462" y="0.0" width="50" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="320" id="EQA-eQ-wCd"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="MwG-5m-YWU"/>
+                                    <constraint firstAttribute="height" constant="320" id="a7G-q2-qbs"/>
+                                    <constraint firstAttribute="width" constant="50" id="hQR-2p-KSr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleTabBar:" destination="LVB-YS-i5n" eventType="touchUpInside" id="YRX-zu-pWi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mcj-DC-1ir">
+                                <rect key="frame" x="516" y="0.0" width="52" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="7YK-8M-2Es"/>
+                                    <constraint firstAttribute="width" constant="52" id="8ds-Z2-4WB"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="ZlN-eh-2om"/>
+                                    <constraint firstAttribute="height" constant="60" id="dYD-ST-MIB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="playButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="s4s-XR-An1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhi-L8-erd">
+                                <rect key="frame" x="49" y="0.0" width="50" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="7WG-cD-Kf1"/>
+                                    <constraint firstAttribute="width" constant="50" id="JLo-rv-DJg"/>
+                                    <constraint firstAttribute="height" constant="320" id="iFs-PN-Dqd"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="320" id="vMT-M1-0SH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleMovement:" destination="LVB-YS-i5n" eventType="touchUpInside" id="KzO-8f-HaM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiN-4F-Pec">
+                                <rect key="frame" x="0.0" y="0.0" width="49" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="107" id="MlU-1l-ZZC"/>
+                                    <constraint firstAttribute="height" constant="107" id="ZRi-jB-Rej"/>
+                                    <constraint firstAttribute="width" constant="49" id="hY4-sP-1M8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="49" id="ifi-D4-6bw"/>
+                                </constraints>
+                                <state key="normal" image="v65button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="annotationButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="KA7-pB-vdn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMz-NR-tEj">
+                                <rect key="frame" x="0.0" y="106" width="49" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="49" id="ATk-8P-dBz"/>
+                                    <constraint firstAttribute="width" constant="49" id="dsX-LC-ZcF"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="107" id="inS-KI-D83"/>
+                                    <constraint firstAttribute="height" constant="107" id="zlJ-Me-gLG"/>
+                                </constraints>
+                                <state key="normal" image="preludeButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="preludeButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="1Kn-3u-QlS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRA-AS-7zE">
+                                <rect key="frame" x="0.0" y="212" width="49" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="107" id="EzC-S8-ZdA"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="49" id="aqo-nh-Pw3"/>
+                                    <constraint firstAttribute="width" constant="49" id="bTs-jJ-kxS"/>
+                                    <constraint firstAttribute="height" constant="107" id="bjP-9s-N1J"/>
+                                </constraints>
+                                <state key="normal" image="fugueButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fugueButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="4YX-JQ-BEZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ul3-xK-CZF">
+                                <rect key="frame" x="519" y="60" width="49" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="XxE-C6-XpJ"/>
+                                    <constraint firstAttribute="width" constant="49" id="oK5-Jr-OcG"/>
+                                </constraints>
+                                <state key="normal" image="restartButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="restartButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="yiI-se-i6T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIN-YZ-BZP">
+                                <rect key="frame" x="519" y="256" width="49" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="LSa-le-dOS"/>
+                                    <constraint firstAttribute="width" constant="49" id="WZC-PL-o4k"/>
+                                </constraints>
+                                <state key="normal" image="purchaseButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="purchaseButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="uIa-Jf-trm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESj-08-4Y9">
+                                <rect key="frame" x="519" y="190" width="49" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="65i-BA-dSx"/>
+                                    <constraint firstAttribute="height" constant="66" id="o8f-Ep-kMf"/>
+                                </constraints>
+                                <state key="normal" image="scoreButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scoreButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="Hkq-cs-slP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6D-iA-wzf">
+                                <rect key="frame" x="519" y="124" width="49" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="bPO-0c-Prm"/>
+                                    <constraint firstAttribute="width" constant="49" id="jfq-SU-9bK"/>
+                                </constraints>
+                                <state key="normal" image="synopsisButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="analysisButtonActive"/>
+                                <connections>
+                                    <action selector="synopsisButtonPress:" destination="LVB-YS-i5n" eventType="touchUpInside" id="JMY-K3-E7m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ul3-xK-CZF" secondAttribute="trailing" id="ABi-wI-F2G"/>
+                            <constraint firstItem="Dhi-L8-erd" firstAttribute="leading" secondItem="vRA-AS-7zE" secondAttribute="trailing" id="AsJ-WM-PfN"/>
+                            <constraint firstAttribute="trailing" secondItem="ul3-xK-CZF" secondAttribute="trailing" id="Bjy-8y-1t3"/>
+                            <constraint firstAttribute="trailing" secondItem="Mcj-DC-1ir" secondAttribute="trailing" id="EQe-Im-MRM"/>
+                            <constraint firstAttribute="trailing" secondItem="ESj-08-4Y9" secondAttribute="trailing" id="Hsq-a1-Hip"/>
+                            <constraint firstAttribute="trailing" secondItem="k6D-iA-wzf" secondAttribute="trailing" id="O5v-xF-9cu"/>
+                            <constraint firstItem="EiN-4F-Pec" firstAttribute="leading" secondItem="oHs-DU-uVm" secondAttribute="leading" id="P8Z-83-Oag"/>
+                            <constraint firstAttribute="trailing" secondItem="XIN-YZ-BZP" secondAttribute="trailing" id="b6q-PX-hpK"/>
+                            <constraint firstItem="Dhi-L8-erd" firstAttribute="leading" secondItem="vRA-AS-7zE" secondAttribute="trailing" id="bhq-Pi-GHS"/>
+                            <constraint firstItem="vRA-AS-7zE" firstAttribute="leading" secondItem="oHs-DU-uVm" secondAttribute="leading" id="cgb-AG-OkV"/>
+                            <constraint firstItem="EiN-4F-Pec" firstAttribute="leading" secondItem="oHs-DU-uVm" secondAttribute="leading" id="dPK-sX-BH5"/>
+                            <constraint firstItem="Mcj-DC-1ir" firstAttribute="leading" secondItem="vAD-mb-eth" secondAttribute="trailing" constant="4" id="evS-pR-4Th"/>
+                            <constraint firstItem="wMz-NR-tEj" firstAttribute="leading" secondItem="oHs-DU-uVm" secondAttribute="leading" id="hfP-pd-b46"/>
+                            <constraint firstAttribute="trailing" secondItem="XIN-YZ-BZP" secondAttribute="trailing" id="jag-oD-Ia7"/>
+                            <constraint firstItem="Mcj-DC-1ir" firstAttribute="leading" secondItem="vAD-mb-eth" secondAttribute="trailing" constant="4" id="p0a-7u-CSs"/>
+                            <constraint firstItem="wMz-NR-tEj" firstAttribute="leading" secondItem="oHs-DU-uVm" secondAttribute="leading" id="uFw-T6-xBA"/>
+                            <constraint firstAttribute="trailing" secondItem="Mcj-DC-1ir" secondAttribute="trailing" id="uYE-e0-ita"/>
+                            <constraint firstAttribute="trailing" secondItem="ESj-08-4Y9" secondAttribute="trailing" id="uik-GO-AXs"/>
+                            <constraint firstItem="vRA-AS-7zE" firstAttribute="leading" secondItem="oHs-DU-uVm" secondAttribute="leading" id="xUD-fZ-9yQ"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="annotationButton" destination="EiN-4F-Pec" id="M2E-0U-JXN"/>
+                        <outlet property="fugueButon" destination="vRA-AS-7zE" id="J4w-CU-6ID"/>
+                        <outlet property="playButton" destination="Mcj-DC-1ir" id="L5K-mU-h3b"/>
+                        <outlet property="preludeButton" destination="wMz-NR-tEj" id="ZMy-9P-YdH"/>
+                        <outlet property="purchaseButton" destination="XIN-YZ-BZP" id="tHs-Tf-6G0"/>
+                        <outlet property="restartButton" destination="ul3-xK-CZF" id="JtY-Xv-ssD"/>
+                        <outlet property="scoreButton" destination="ESj-08-4Y9" id="60T-9z-NQb"/>
+                        <outlet property="synopsisButton" destination="k6D-iA-wzf" id="NfJ-fK-BdB"/>
+                        <outlet property="toggleButton" destination="vAD-mb-eth" id="Xik-sD-kqk"/>
+                        <outlet property="toggleButtonLeft" destination="Dhi-L8-erd" id="1Hp-M8-BOv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="analysisButtonActive" width="98" height="131"/>
+        <image name="fugueButton" width="98" height="213"/>
+        <image name="playButton" width="104" height="120"/>
+        <image name="preludeButton" width="98" height="213"/>
+        <image name="purchaseButton" width="98" height="132"/>
+        <image name="restartButton" width="97" height="132"/>
+        <image name="scoreButton" width="98" height="131"/>
+        <image name="synopsisButton" width="98" height="131"/>
+        <image name="v65button" width="98" height="213"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
+</document>
